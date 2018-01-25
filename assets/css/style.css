@@ -17,8 +17,7 @@ nav ul {
 
 nav li{
     display:inline-block;
-    margin:0 35px;
-    padding-top:20px;
+    margin:20px;
 }
 
 nav a {
@@ -42,33 +41,39 @@ h1 {
     color: white;
     width:fit-content;
     padding:20px;
-    margin-left: 50px;
+    margin-left: 75px;
     text-transform: uppercase;
 
 }
 
 img {
+    padding: 10px 10px 10px 0;
     float:left;
 }
 
-
+hr {
+    color: #666666;
+    width:600px;
+    float: left;
+}
 p {
-    padding:20px;  
+    padding:30px;  
 }
 
 .Aboutme {
-
+    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
     width:650px;
+    height:350px;
     background-color:white;
     float: left;
-    margin-left:100px;
+    margin-left:75px;
     margin-bottom: 50px;
 
 }
 
-aside {
+.aside {margin-top:0;
     float: right;
 }
 
@@ -77,14 +82,13 @@ body {
 }
 
 
-.Connectme {
-   
+.Connectme {margin-right: 50px;
     width:270px; 
     background-color: white;
-    margin:50px;
     float:right;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding:0 20px 20px 20px;
+    border:0;
 
 }
 
@@ -103,7 +107,28 @@ footer {
 h2 {color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:30px;
+    padding: 20px;
 
 }
 
 
+#ch2 {color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    padding: 20px;
+
+}
+
+#hr2 {
+    width: 250px;
+    float:left;
+    color:#666666;
+}
+section {
+    line-height: 2;
+
+}
+
+#Contact {
+    margin-right: 50px;
+}
